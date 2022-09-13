@@ -16,7 +16,7 @@
 #visit-our-school {
     text-align: center;
     background-color: #eee;
-    padding: 80px;
+    padding: 60px;
     margin-bottom: 2em;
 }
 
@@ -24,6 +24,8 @@
     text-align: left;
     margin-bottom: 2em;
     font-size: 1.25em;
+    margin-right: 9em;
+    margin-left: 9em;
 }
 
 #visit-our-school a {
@@ -109,3 +111,15 @@ main hr {
     background-color: #eee;
     height: 1px;
 }
+
+#left-header{
+    font-size: 2em;
+}
+.sticky {
+    position: fixed;
+    top: 40px;
+    width: 100%
+  }
+  .sticky + .content {
+    padding-top: 102px;
+  }
